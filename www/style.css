@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-section, .comodos-section, .resultados-section {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.radio-group {
+    margin-bottom: 10px;
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 5px;
+}
+
+.comodos-list {
+    margin-top: 20px;
+}
+
+.comodo-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.comodo-item h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.comodo-actions {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.comodo-actions button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.btn-remover {
+    background-color: #e74c3c;
+}
+
+.btn-remover:hover {
+    background-color: #c0392b;
+}
+
+.btn-editar {
+    background-color: #f39c12;
+}
+
+.btn-editar:hover {
+    background-color: #d35400;
+}
+
+.resultados {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+    
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    .comodo-actions {
+        position: static;
+        margin-top: 10px;
+        display: flex;
+    }
+    
+    .comodo-actions button {
+        flex: 1;
+    }
+}
