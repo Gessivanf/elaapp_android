@@ -3,7 +3,7 @@ workflows:
     name: Android Workflow
     instance_type: mac_mini_m1
     environment:
-      node: 18.x
+      node: 16.x  # Alterado de 18.x para 16.x
     scripts:
       - name: Install dependencies
         script: npm install
