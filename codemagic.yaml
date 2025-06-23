@@ -1,7 +1,7 @@
 workflows:
   android-workflow:
     name: Android Workflow
-    instance_type: linux_x2
+    instance_type: mac_mini
     environment:
       groups:
         - default
